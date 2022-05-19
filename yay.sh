@@ -1,4 +1,5 @@
 #!/bin/bash
+cd
 sudo git clone https://aur.archlinux.org/yay-git.git
 sudo chown -R greaterist:greaterist ./yay-git
 cd yay-git
