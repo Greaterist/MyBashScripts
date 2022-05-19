@@ -4,3 +4,5 @@ sudo chown -R greaterist:greaterist ./yay-git
 cd yay-git
 makepkg -si
 cd
+yay -Y --gendb # to generate a development package database for *-git packages that were installed without yay. This command should only be run once.
+yay -Y --devel --save #to make development package updates permanently enabled (yay and yay -Syu will then always check dev packages
