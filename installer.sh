@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-sudo pacman -S konsole nano vlc steam syncthing firefox dolphin code
+sudo pacman -S git konsole nano vlc steam syncthing firefox dolphin code
