@@ -1,4 +1,4 @@
 #!/bin/bash
-sh ./KDE.sh
-sh ./installer.sh
-sh ./yay.sh
+wget -O - https://raw.githubusercontent.com/Greaterist/archInstallScript/main/KDE.sh | bash
+wget -O - https://raw.githubusercontent.com/Greaterist/archInstallScript/main/installer.sh | bash
+wget -O - https://raw.githubusercontent.com/Greaterist/archInstallScript/main/yay.sh | bash
