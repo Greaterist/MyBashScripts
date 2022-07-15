@@ -1,4 +1,4 @@
 #!/bin/bash
-alias winepfx=(env WINEPREFIX=./pfx wine)
-alias winepfxcfg=(env WINEPREFIX=./pfx winecfg)
-alias winepfxtricks=(env WINEPREFIX=./pfx winetricks)
+alias winepfx='env WINEPREFIX=$(pwd)/pfx wine'
+alias winepfxcfg='env WINEPREFIX=$(pwd)/pfx winecfg'
+alias winepfxtricks='env WINEPREFIX=$(pwd)/pfx winetricks'
